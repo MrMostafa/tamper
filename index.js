@@ -1,3 +1,17 @@
+// ==UserScript==
+// @name         old save img product
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://www.digikala.com/product/dkp-*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=digikala.com
+// @grant        GM_download
+// @require      https://code.jquery.com/jquery-3.6.0.min.js
+
+// @updateURL    https://raw.githubusercontent.com/MrMostafa/tamper/main/index.js
+// @downloadURL  https://raw.githubusercontent.com/MrMostafa/tamper/main/index.js
+
 (function() {
     'use strict';
     const CloseWindows = 1;
@@ -125,3 +139,4 @@
 
     // Your code here...
 })();
+//version 1.0.1
